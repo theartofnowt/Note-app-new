@@ -1,6 +1,6 @@
 (function(exports){
-  function NoteListModel(noteModel) {
-    this._noteModel = noteModel;
+  function NoteListModel(NoteModel) {
+    this._noteModel = NoteModel;
     this._notes = [];
   }
 
@@ -9,7 +9,7 @@
       return this._notes;
     },
     create: function(str){
-      var note = new this._noteModel(str)
+      var note = new NoteModel(str)
       this._notes.push(note);
       return note;
     }

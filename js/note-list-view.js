@@ -4,7 +4,7 @@
   }
 
   NoteListView.prototype = {
-    listHtml: function(){
+    toHtml: function(){
       var listItems = this._noteListModel.all().map(function(note) {
         return "<li><div>" + note.text() + "</div><li>";
       }).join("");
