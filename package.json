@@ -21,5 +21,8 @@
   "homepage": "https://github.com/theartofnowt/Note-app-new#readme",
   "dependencies": {
     "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1"
   }
 }
