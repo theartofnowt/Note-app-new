@@ -4,10 +4,10 @@
   }
 
   NoteModel.prototype = {
-    text: fucntion(){
+    text: function(){
       return this._text;
     }
   };
 
   exports.NoteModel = NoteModel;
-})(this)
+})(this);
