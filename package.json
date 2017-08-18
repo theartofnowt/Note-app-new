@@ -1,0 +1,25 @@
+{
+  "name": "note-app-new",
+  "version": "1.0.0",
+  "description": "a note taking app in vanilla js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theartofnowt/Note-app-new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theartofnowt/Note-app-new/issues"
+  },
+  "homepage": "https://github.com/theartofnowt/Note-app-new#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
